@@ -1,0 +1,24 @@
+{
+  "name": "rescript-react",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w",
+    "server": "moduleserve ./ --port 8000"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "*",
+    "moduleserve": "^0.9.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reason-react": "^0.9.1"
+  }
+}
