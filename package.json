@@ -2,10 +2,13 @@
   "name": "rescript-react",
   "version": "0.0.1",
   "scripts": {
-    "build": "bsb -make-world -clean-world && parcel build index.html",
     "re:build": "bsb -make-world -clean-world",
     "re:watch": "bsb -make-world -clean-world -w",
-    "start": "bsb -make-world -clean-world && parcel index.html"
+    
+    "prebuild": "yarn re:build",
+    "build": "parcel build index.html",
+    "prestart": "yarn re:build",
+    "start": "parcel index.html"
   },
   "keywords": [
     "rescript"
@@ -14,7 +17,8 @@
   "license": "MIT",
   "devDependencies": {
     "bs-platform": "*",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "tailwindcss": "^1.9.6"
   },
   "dependencies": {
     "react": "^17.0.1",
