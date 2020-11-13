@@ -5,13 +5,10 @@ The only official ReScript starter template merged with the latest official Reas
 ## Installation
 
 ```sh
-npm install
+yarn
 ```
 
-## Build
+## Scripts
 
-- Build & watch: `npm run start`
-- Server: `npm run server`
-
-- Build: `npm run build`
-- Clean: `npm run clean`
+- Build & watch: `yarn start`
+- Build: `yarn build`

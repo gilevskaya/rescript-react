@@ -1,6 +1,9 @@
-.DS_Store
+/.cache/
+/dist/
 /node_modules/
 /lib/
+
+.DS_Store
 .bsb.lock
 .merlin
 *.bs.js
