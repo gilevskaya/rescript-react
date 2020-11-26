@@ -3,10 +3,10 @@
 ## Run Project
 
 ```sh
-npm install
-npm start
+yarn install
+yarn start
 # in another tab
-npm run webpack
+yarn webpack
 ```
 
 After you see the webpack compilation succeed (the `npm run webpack` step), open up `build/index.html` (**no server needed!**). Then modify whichever `.res` file in `src` and refresh the page to see the changes.
@@ -22,9 +22,9 @@ To use a port other than 8000 set the `PORT` environment variable (`PORT=8080 np
 ## Build for Production
 
 ```sh
-npm run clean
-npm run build
-npm run webpack:production
+yarn clean
+yarn build
+yarn webpack:production
 ```
 
 ## Based on
