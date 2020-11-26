@@ -32,4 +32,3 @@ module App = {
 }
 
 ReactDOMRe.renderToElementWithId(<App />, "root")
-//     <div className="w-screen flex justify-center"> <Button.Button startCount={1} /> </div>
