@@ -1,8 +1,10 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "blue",
+        primary: colors.blue[800],
       },
     },
   },
