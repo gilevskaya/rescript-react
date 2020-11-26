@@ -1,13 +1,12 @@
 %raw("require('./tailwind.css')")
-
-// let logo: string = %raw "require('./assets/logo.png')";
+let logo: string = %raw("require('./assets/logo.png')")
 
 module App = {
   @react.component
   let make = () => {
     <div className="h-screen flex justify-center items-center">
       <div className="px-6 max-w-sm rounded overflow-hidden shadow-lg p-4">
-        // <img className="w-full" src=logo alt="Sunset in the mountains" />
+        <img className="w-full" src=logo alt="Sunset in the mountains" />
         <div className="py-4">
           <div className="font-bold text-xl mb-2"> {"RE-Tailwind" |> React.string} </div>
           <p className="text-gray-700 text-base">
