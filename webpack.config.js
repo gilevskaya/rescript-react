@@ -20,6 +20,7 @@ module.exports = {
   devServer: {
     compress: true,
     contentBase: outputDir,
+    publicPath: "/",
     port: process.env.PORT || 8000,
     historyApiFallback: true,
   },
