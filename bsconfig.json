@@ -1,5 +1,7 @@
 {
-  "name": "react-hooks-template",
+  "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
+  "name": "rescript-react",
+  "version": "0.0.2",
   "reason": {
     "react-jsx": 3
   },
@@ -7,15 +9,15 @@
     "dir": "src",
     "subdirs": true
   },
-  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
-  "package-specs": [
-    {
-      "module": "commonjs",
-      "in-source": true
-    }
-  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
   "suffix": ".bs.js",
-  "namespace": true,
-  "bs-dependencies": ["reason-react"],
-  "refmt": 3
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "warnings": {
+    "error" : "+101"
+  }
 }

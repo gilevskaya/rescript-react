@@ -1,7 +1,7 @@
 {
-  "name": "create-reason-react-tailwind",
+  "name": "rescript-react",
   "private": true,
-  "version": "0.1.2",
+  "version": "0.0.2",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w -ws _ ",
@@ -14,19 +14,12 @@
     "re:watch": "bsb -make-world -clean-world -w"
   },
   "keywords": [
-    "BuckleScript",
-    "ReasonReact",
-    "reason-react"
+    "rescript",
+    "reason-react",
+    "tailwind"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/bodhish/create-reason-react-tailwind.git"
-  },
-  "author": "bodhsih",
+  "author": "gilevskaya",
   "license": "MIT",
-  "engines": {
-    "node": ">=8"
-  },
   "dependencies": {
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^12.0.1",
@@ -34,9 +27,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "reason-react": "^0.9.1",
-    "style-loader": "^0.23.1",
-    "tailwindcss": "^1.8.3",
-    "url-loader": "^4.1.1"
+    "tailwindcss": "^1.8.3"
   },
   "devDependencies": {
     "bs-platform": "^8.3.3",
@@ -44,6 +35,8 @@
     "file-loader": "^4.1.0",
     "html-webpack-plugin": "^4.5.0",
     "postcss-loader": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
     "webpack": "^5.6.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
